@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Small Hotel Royal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+    });
+  </script>
+</head>
+
+<body>
+  <div class=".container-fluid">
+  <div id="heading">
+  <table>
+  <tr>
+  <td>
+  <img id="logo" src="logo-trasparente12-1.png" alt="Logo" height="180" width="230"> 	
+  </td>
+  
+  
+  
+  </tr>
+  </table>
+  </div>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"> Small Royal Hotel</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="main.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="booking.html">Booking</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="signup.html">Signup</a></li>
+      <li><a href="contact.html">Contact us</a></li>
+    </ul>
+  </div>
+  </nav>
+  <div class="container"> 
+  <script language="JavaScript">
+  var i = 0;
+  var path = new Array();
+ 
+  // LIST OF IMAGES
+  path[0] = "talatona-convention-hotels.jpg";
+  path[1] = "ausctr-omni-austin-hotel-downtown-evening-pool.jpg";
+  path[2] = "GI_restaurant02_32_698x390_FitToBoxSmallDimension_Center.jpg";
+  path[3] = "1600.jpg";
+  path[4] = "keio-plaxa-hotel-tokyo.jpg";
+  path[5] = "thon-hotel-eu-breakfast-1.jpg";
+  function swapImage()
+  {
+     document.slide.src = path[i];
+    if(i < path.length - 1) i++; else i = 0;
+    setTimeout("swapImage()",3000);
+  }
+  window.onload=swapImage;
+  </script>
+  <img id="slideshow" height="100" class="img-thumbnail" name="slide" src="talatona-convention-hotels.jpg" width="900" align="middle" /><br><br>
+  <div class="jumbotron">
+  <p style="font-family: Arial;" id="about"  >Small Royal Hotel is the right choice for visitors who are searching for a combination of charm, peace and quiet, and a convenient position from which to explore Venice. It is a small, comfortable hotel, situated on the Canale di Cannaregio. The Derai family and their staff offer an attentive, personalized service and are always available to offer any help to guests.
+  The hotel is arranged on three floors. On the ground floor, apart from the reception, there is a comfortable lounge where you can sit and drink tea, or just read. There is also a splendid terrace, where, you can relax and immerge yourself from morning onwards in the atmosphere of Venetian daily life, watching the city travelling about by water and people gathering together and filling the alleyways and little squares with their chatter.
+  The rooms are arranged on the first, second and third floors. On the top floor, there is also a delightful terrace or solarium available for the use of guests, from where you can enjoy the wonderful view.
+  The buffet breakfast is served in the lounge on the ground floor, and also outside on our little patio during the summer months.
+  The hotel provides an internet point, and a Wi-Fi service.
+  </p></div>
+  </div>

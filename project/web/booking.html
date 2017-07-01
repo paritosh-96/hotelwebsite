@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Small Hotel Royal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+<body>
+<div class=".container-fluid">
+<div id="heading">
+<img id="logo" src="logo-trasparente12-1.png" alt="Logo" height="180" width="230">
+</div>
+</div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"> Small Royal Hotel</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="main.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li class="active"><a href="booking.html">Booking</a></li>
+      <li ><a href="services.html">Services</a></li>
+      <li><a href="signup.html">Signup</a></li>
+      <li ><a href="contact.html">Contact us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+<div class="well"><h1>Book Now</h1></div>
+
+<form class="form-horizontal" action="src\java\bookin" method="get" role="form">
+  <div class="well">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Name:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="name" id="email" placeholder="Enter name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" name="email" id="email" placeholder="Enter email">
+    </div>
+  </div>
+  
+</div>
+<div class="well">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Check-In Date:</label>
+    <div class="col-sm-10"> 
+      <input type="date" class="form-control" id="pwd" name="checkin" >
+    </div>
+  </div>
+
+<div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Check-Out Date:</label>
+    <div class="col-sm-10"> 
+      <input type="date" class="form-control" id="pwd" name="checkout" >
+    </div>
+  </div>
+
+<div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Number of Rooms:</label>
+    <div class="col-sm-10"> 
+      <input type="number" class="form-control" id="pwd" name="noofrooms" placeholder="Enter Number of Rooms">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="well">
+<div class="roomt"> 
+<b>Room Type:</b><br><br>
+<input type="radio" name="room" checked>Single Bed Non Ac: 2,000 INR <br>
+<input type="radio" name="room">Double Bed Non Ac: 3,000 INR <br>
+<input type="radio" name="room">Single Bed Ac: 3,500 INR <br>
+<input type="radio" name="room">Double Bed Ac: 5,000 INR <br>
+<input type="radio" name="room">Deluxe Room: 7,000 INR <br>
+<input type="radio" name="room">Suite: 10,000 INR <br><br>
+<em>*Tariff for each room is on per day basis</em>
+</div>
+</div>
+
+
+<div class="well">
+<div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Password:</label>
+    <div class="col-sm-10"> 
+      <input type="password" class="form-control" name="pass" id="pwd" placeholder="Enter password">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Book</button>
+    </div>
+  </div>
+
+
+
+
+
+
+</form>
+
+
+
+
+</div>

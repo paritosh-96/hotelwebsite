@@ -1,0 +1,53 @@
+#heading
+{
+	background-color: #ff8533;
+	margin-top: 5px;
+    
+}
+
+#logo
+{
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#focusedInput
+{
+	width: 150px;
+    height: 25px;
+
+}
+
+#login
+{
+	padding-left: 950px;
+}
+
+#slideshow
+{
+	margin-left: 120px;
+	height:350px; 
+	width:900px;
+}
+
+
+/*{
+	font-size: 1px;
+}*/
+
+#about
+{
+	font-size: 18px;
+
+}
+
+.col-sm-10
+{
+	width: 300px;
+}
+
+.roomt
+{
+	margin-left: 77px;
+}
